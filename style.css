@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* ................................Navbar Start ............................... */
+
+/* @media (min-with:500px) {
+    body {
+        background-color: #f87300;
+    } */
+
+.logo img {
+    width: 8.3rem;
+}
+ul{
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0rem 4rem;
+    color: #ffff;
+
+}
+
+nav {
+    background-color:#fe7e1f;
+    height: 8rem;
+
+}
+
+.navbar a:hover {
+    background-color: #0295ff;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: none;
+}
+
+h1 {
+    text-align: start;
+}
+
+#icon{
+    font-size: 2rem;
+    cursor: pointer;
+    color: #f87300;
+    display: none;
+}
+
+@media(max-width:640px){
+    ul li a{
+        display: none;
+    }
+    #icon{
+        display: block;
+    }
+}
+
+
+
+/* ................................Navbar End ............................... */
+
+/* ................................Image Area Start ............................... */
+
+.main-image img{
+    width: 100%;
+    height: 90vh;
+}
+/* ................................Image Area end ............................... */
+
+
+/* ................................box Area start ............................... */
+
+.box-flex{
+    height: 100vh;
+    width: 100%;
+}
+
+.box{
+    height: 36rem;
+    width: 38rem;
+    border: 2px solid black;
+   background-color: #bfd6e7;
+    border-radius: 0.8rem;
+    margin: 3rem 1rem;
+}
+
+.text h1{
+    text-align: center;
+    font-size: 6rem;
+    /* margin-top: 4rem; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.box-main{
+    background-color: #ffd7b4;
+    height: 140vh;
+}
+
+.box img{
+    width: 100%;
+    height: 21rem;
+    
+    border-radius: 0.5rem;
+}
+.box-head{
+ font-size: 3rem;
+ text-align: center;
+ margin-top: 1rem;
+ font-family: 'Poppins', sans-serif;
+
+}
+
+.box-p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+/* ................................box Area End ............................... */
+
+/* ................................ footer start ............................... */
+.footer-img img{
+    width: 32%;
+    margin-top: 4rem;
+
+}
+.footer-flex h3{
+    font-size: 3rem;
+    text-align: center;
+    
+}
+.footer-flex{
+    /* margin-top: 2rem; */
+    height: 50vh;
+    background-color: #bfd6e7;
+    padding: 2rem;
+    border-top: 2px solid black;
+}
+
+.footer-flex p{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+
+}
+
+.icon{
+   gap: 1rem;
+   margin-top: 1rem;
+   font-size: 2rem;
+   color: black
+
+}
+.footer-m{
+    margin: 2rem 8rem 0rem 0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ................................ footer end ............................... */
